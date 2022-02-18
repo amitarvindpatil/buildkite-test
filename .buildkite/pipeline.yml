@@ -3,5 +3,6 @@ steps:
 
   - wait
 
+
   - label: 'Create and Upload Docker Image to AWS/ECR'
     command: sh ./scripts/upload-docker-image.sh
